@@ -1,0 +1,39 @@
+{
+    "name": "markdown-to-docs",
+    "version": "1.0.0",
+    "description": "Generates PDF and HTML from MARKDOWN document",
+    "main": "lib/markdown-to-docs-lib.js",
+    "author": "Dominik Dzienia <dominik.dzienia@gmail.com>",
+    "license": "MIT",
+    "keywords": [
+        "markdown",
+        "pdf",
+        "html",
+        "tool",
+        "commandline"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dlvoy/markdown-to-docs.git"
+    },
+    "dependencies": {
+        "commander": "2.9.0",
+        "chalk": "~1.1.3",
+        "prettyjson": "~1.1.3",
+        "filepath": "~1.1.0",
+        "q": "1.4.1",
+        "pkginfo": "~0.4.0",
+        "markdown-pdf": "~7.0.0",
+        "through": "~2.3.8",
+        "cheerio": "~0.20.0",
+        "markdown": "~0.5.0"
+    },
+    "preferGlobal": "true",
+    "bin": {
+        "markdown-to-docs": "./bin/markdown-to-docs"
+    },
+    "scripts": {
+        "test": "node bin\/markdown-to-docs --verbose --fit .\/test\/test.md --pdf .\/test\/test.pdf  --html .\/test\/test.html"
+    }
+
+}
