@@ -1,4 +1,4 @@
-# GPX Splitting Tool
+# Markdown to Docs
 
 [![license](https://img.shields.io/github/license/dlvoy/markdown-to-docs.svg)](https://github.com/dlvoy/markdown-to-docs/blob/master/LICENSE)
 [![NPM version](http://img.shields.io/npm/v/markdown-to-docs.svg?style=flat)](https://www.npmjs.com/package/markdown-to-docs)
