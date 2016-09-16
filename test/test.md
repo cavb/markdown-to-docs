@@ -27,3 +27,6 @@ Source: [WikiMedia by Ldo](https://commons.wikimedia.org/wiki/File:PM5644.svg) *
 And this is raster
 
 ![test2](test2.png)
+
+And link to fix
+[Link to other MD](test.md)

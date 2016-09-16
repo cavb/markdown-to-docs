@@ -36,7 +36,8 @@ Option                                   | Type
 ---                                      | :---:              
 [`-p`, `--pdf`](#option-pdf)             | `File Path`  
 [`-w`, `--html`](#option-html)           | `File Path`  
-[`-f`, `--fit`](#option-fit)             | `Boolean`    
+[`-f`, `--fit`](#option-fit)             | `Boolean` 
+[`-r`, `--relink`](#option-relink)       | `Boolean`    
 [`-v`, `--verbose`](#option-verbose)     | `Boolean`    
 [`-h`, `--help`](#option-help)           | `Boolean`   
 [`-V`, `--version`](#option-version)     | `Boolean`   
@@ -58,6 +59,10 @@ All local images are embedded. If it is only possible, SVG are used instead of r
 ### Option fit
 
 Works for PDF output only. Is set, images are fit to page width.
+
+### Option relink
+
+When turned on, changes all link to .md or .markdown files into links to .html or .pdf with same file name.
 
 ### Option verbose
 
