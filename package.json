@@ -1,6 +1,6 @@
 {
     "name": "markdown-to-docs",
-    "version": "1.1.0",
+    "version": "2.0.0",
     "description": "Generates PDF and HTML from MARKDOWN document",
     "main": "lib/markdown-to-docs-lib.js",
     "author": "Dominik Dzienia <dominik.dzienia@gmail.com>",

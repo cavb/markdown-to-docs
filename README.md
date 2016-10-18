@@ -22,6 +22,13 @@ $ npm install -g markdown-to-docs
 $ markdown-to-docs [options] [path_to_markdown_file]
 ``` 
 
+or
+
+```sh
+$ markdown-to-docs --convert [options] [path_to_html_file]
+``` 
+
+
 For full list of supported options execute:
 ```sh
 $ markdown-to-docs -h
@@ -38,6 +45,7 @@ Option                                   | Type
 [`-w`, `--html`](#option-html)           | `File Path`  
 [`-f`, `--fit`](#option-fit)             | `Boolean` 
 [`-r`, `--relink`](#option-relink)       | `Boolean`    
+[`-c`, `--convert`](#option-convert)     | `Boolean`    
 [`-v`, `--verbose`](#option-verbose)     | `Boolean`    
 [`-h`, `--help`](#option-help)           | `Boolean`   
 [`-V`, `--version`](#option-version)     | `Boolean`   
@@ -63,6 +71,10 @@ Works for PDF output only. Is set, images are fit to page width.
 ### Option relink
 
 When turned on, changes all link to .md or .markdown files into links to .html or .pdf with same file name.
+
+### Option convert
+
+When turned on, input file should be HTML instead of markdown. Resulting HTML output does not have embedded images.
 
 ### Option verbose
 
